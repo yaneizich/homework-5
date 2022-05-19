@@ -1,0 +1,133 @@
+@import url(/assets/fonts/fonts.css);
+
+.content {
+    max-width: calc(1170px + 15px*2);
+    padding: 0 15px;
+    margin: 0 auto;
+    /*background-image: url(/assets/images/homer.png);
+    background-position:10%;
+    background-repeat: repeat;*/
+}
+
+.price--header--title {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+}
+
+.price--header--title-line {
+    border: 1px solid rgba(236, 121, 121, 1);
+    width: 170px;
+    margin: 0 auto;
+}
+
+.price--header--title-article {
+    text-align: center;
+    margin: 40px auto 59px;
+    color: #86878B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;  
+}
+
+.flexcontainer--common {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexcontainer--common1 {
+    display: flex;
+    flex-direction: column;
+    width: calc(1170px - 370px*2 - 30px*2);
+    margin: 20px auto 0;
+}
+
+.flexcontainer--common2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(1170px - 370px*2 - 30px*2);
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+
+.flexcontainer--common3 {
+    display: flex;
+    flex-direction: column;
+    width: calc(1170px - 370px*2 - 30px*2);
+    margin: 20px auto 0;
+}
+
+.flexcontainer--common1-buttons1 {
+    height: 60px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcontainer--common1-buttons2 {
+    height: 100px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcontainer--common1-buttons3 {
+    height: 50px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcontainer--common1-buttons4,
+.flexcontainer--common1-buttons5,
+.flexcontainer--common1-buttons6,
+.flexcontainer--common1-buttons7,
+.flexcontainer--common1-buttons8,
+.flexcontainer--common1-buttons9 {
+     height: 50px;
+     background: #FFFFFF;
+     border: 2px solid #F5F5F5;
+     color: #86878B;font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 21px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
